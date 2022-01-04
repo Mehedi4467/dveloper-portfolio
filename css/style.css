@@ -4,7 +4,7 @@ body{
 }
 
 
-/* here me section css */
+/* here top section css */
 
 .half-with{
     width: 50%;
@@ -40,4 +40,42 @@ h1{
 }
 .color-orange{
     color: #FFAE1A;
+}
+/* big drem css */
+.big-dream-bg{
+    background-image: url(../image/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right 10%;
+}
+
+/* exprence iteam cs start here */
+
+.item{
+    margin:0 60px ;
+    padding: 0 20px;
+    width: 50%;
+    box-shadow: 5px 7px 40px gray;
+}
+.item h2{
+    font-size: 40px;
+}
+.ex-bg{
+    background-image: url(../image/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left 10%;
+}
+#item-border2{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, blue, cyan);
+    border-image-slice: 1;
+}
+#item-border1{
+
+    border-left:7px solid;
+    border-image: linear-gradient(180deg, lightsalmon, tomato);
+    border-image-slice:8;
+}
+
+footer{
+    text-align: center;
 }
